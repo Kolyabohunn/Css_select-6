@@ -1,0 +1,76 @@
+@font-face {
+font-family: "Raleway";
+src: url("fonts/20339.ttf");
+font-style: normal;
+font-weight: normal;
+}
+* {
+  transition: all .1s ease-in;
+  padding: 0;
+  margin: 0;
+}
+body {
+  padding: 20px;
+}
+header {
+  color: #ec877d;
+  background-color: #464f4f;
+  text-align: center;
+}
+
+li:nth-child(1n) {
+  background-color: #4a4b58;
+  color: white;
+}
+li {
+  list-style-type: none;
+  width: 400px;
+  padding: 5px;
+}
+li:hover {
+  background-color: #5e6173;
+  border: 1px solid white;
+}
+.f {
+  border: 0px solid #000;
+  background-color: rgb(70, 83, 83);
+  color: #ec877d;
+  padding: 5px;
+ width: 410px;
+ margin: 30px 0px 20px 0px;
+}
+li:nth-child(odd){
+  background-color: rgb(151, 161, 161) ;
+}
+input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+input:active{
+  background-color : aqua;
+}
+
+.k1:after{
+  font-family: Raleway;
+  font-size: 12px;
+  content: "( for the next lessons about CSS )";
+}
+.k2:after{
+  font-family: Raleway;
+  font-size: 12px;
+  content: "( for more CSS manipulations )";
+}
+.k3:after{
+  font-family: Raleway;
+  font-size: 12px;
+  content: "( because they are awesome )";
+}
+.k4:after{
+  font-family: Raleway;
+  font-size: 12px;
+  content: "( hm...they always disappear )";
+}
+.k6:after{
+  font-family: Raleway;
+  font-size: 12px;
+  content: "( for my friends )";
+}

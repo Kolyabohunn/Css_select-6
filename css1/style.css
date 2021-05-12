@@ -1,0 +1,42 @@
+*{transition: all .1s ease-in;}
+.icon {
+width: 64px;
+height: 64px;
+border: 1px solid #2a69a6;
+border-radius: 50%;
+margin: 0 auto;
+
+}
+.icon1 {
+    background: #2a69a6 url("igm/img/Dashboard.png") center center no-repeat;
+}
+table {
+   width: 1000px;
+   margin: 0 auto; 
+
+}
+.icon1:hover {
+    background-color: rgb(255, 255, 255);
+}
+.icon2{
+    background: #2a69a6 url("igm/img/Settings.png") center center no-repeat;
+}
+.icon2:hover {
+    background-color: rgb(255, 255, 255);
+}
+.icon3{
+    background: #ffffff url("igm/img/Tablet.png") center center no-repeat;
+    
+}
+.icon3:hover {
+    background-color: #2a69a6;
+}
+h3{
+    text-align: center;
+}
+p {
+    margin-left: 40px;
+    width: 250px;
+    opacity: 0.5;
+    text-align: center;
+}
